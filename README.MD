@@ -24,3 +24,8 @@
 <br />
 <p><b>4 - Implémentation de l'interface IMetier (en utilisant le couplage faible)</b></p>
 <img src="./imgs/5.png" alt="Une implémentation de l'interface IMetier">
+
+<br />
+<p><b>4 - L'injection des dépendences</b></p>
+<p>a - Par instanciation statique : </p>
+<img src="./imgs/6.png" alt="Injection des dépendences par instanciation statique">
