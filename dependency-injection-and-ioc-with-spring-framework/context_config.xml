@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+           http://www.springframework.org/schema/beans
+           https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <!-- Définition d’un bean de type IDao -->
+    <bean id="dao" class="com.iliasse.dao.DaoImpl"/>
+
+    <!-- Définition d’un bean de type IMetier -->
+    <bean id="metier" class="com.iliasse.metier.MetierImpl">
+        <constructor-arg ref="dao"/>
+    </bean>
+</beans>
