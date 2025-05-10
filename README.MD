@@ -9,6 +9,7 @@
 
 <br />
 <p><b>1 - Création de l'interface IDao</b></p>
+
 <img src="./imgs/2.png" alt="L'interface IDao">
 
 <br />
@@ -18,7 +19,9 @@
 
 <br />
 <p><b>3 - Création de l'interface IMetier</b></p>
+
 <img src="./imgs/4.png" alt="L'interface IMetier">
+
 
 
 <br />
@@ -29,3 +32,4 @@
 <p><b>4 - L'injection des dépendences</b></p>
 <p>a - Par instanciation statique : </p>
 <img src="./imgs/6.png" alt="Injection des dépendences par instanciation statique">
+
