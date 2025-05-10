@@ -37,4 +37,7 @@
 <br />
 <p>c - En utilsant Spring Framework : </p>
 <p>c - 1 - Via un fichier xml de configuration : </p>
-<img src="./imgs/8.png" alt="Injection des dépendences par instanciation dynamique">
+<p>c - 1 - Voici le fichier de configuration qui permet de configurer le conteneur d'injection des dépendences : </p>
+<img src="./imgs/8.png" alt="fichier de configuration du conteneur d'injection des dépendences">
+<p>c - 2 - Le corps de la méthode main() de la couche presentation </p>
+<img src="./imgs/9.png" alt="Le corps de la méthode main">

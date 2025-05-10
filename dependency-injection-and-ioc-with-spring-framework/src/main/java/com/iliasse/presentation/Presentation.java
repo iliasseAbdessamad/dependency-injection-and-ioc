@@ -1,23 +1,16 @@
 package com.iliasse.presentation;
 
-import com.iliasse.dao.IDao;
+
 import com.iliasse.metier.IMetier;
-import com.iliasse.metier.MetierImpl;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.FileSystemXmlApplicationContext;
 
 public class Presentation {
 
-    public static void main(String[] args)
-    {
-        try{
-            //Instanciation dynamique
-            Class<IDao> clazz = (Class<IDao>)Class.forName("com.iliasse.dao.DaoImpl");
-            IDao dao = clazz.getConstructor().newInstance();
+    public static void main(String[] args) {
 
-            IMetier metier = new MetierImpl(dao);
-            System.out.println("La température est égale à : " + metier.calcul());
-        }
-        catch(Exception ex){
-            System.out.println(ex.getMessage());
-        }
+        ApplicationContext appContext = new FileSystemXmlApplicationContext("context_config.xml");
+        IMetier metier = (IMetier)appContext.getBean("metier");
+        System.out.println("La température est égale à : " + metier.calcul());
     }
 }
