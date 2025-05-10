@@ -1,4 +1,4 @@
-<h2>L'interêt du principe de l'injection de dépendences et de l'inversion de contrôle</h2>
+<h2>L'injection de dépendences et de l'inversion de contrôle</h2>
 <i>
 	L'objectif de ce projet est d'implementer les principes de l'injection de dépendence et de l'inversion de contrôle, et les problèmes
 	qui permettent de résoudre
@@ -48,4 +48,19 @@
 <img src="./imgs/11.png" alt="la class MetierImpl">
 <p>c - 2 - 2 - Le corps de la méthode main() de la couche presentation </p>
 <img src="./imgs/12.png" alt="Le corps de la méthode main">
+<br /><br />
+<h3>Conclusion :</h3>
+<p>
+	<b>L'injection de dépendences : </b> est un principe de la programmation orientée objet, qui permet d'établir la dépendence entre 
+	les objets via un couplage faible, ce qui permet de créer des applications ouvertes à l'extension et fermées à la modification 
+	chose qui facilite l'élaboration des tests unitaires, la maintenance, et l'évolution de l'application.
+</p>
+<p>
+	<b>L'inversion de contrôle : </b> est un principe de la programmation orientée objet, qui permet en générale à déléguer le flux de 
+	l'execution d'un programme (l'aspect technique de l'application) à un framework en utilisant l'injection de dépendance et une 
+	configuration de l'application. 
+	L'avantage avec ce principe est d'avoir la possibilté d'écrire du code avec une manière déclarative au lieu de l'écrir avec la manière impérative, chose qui permet aux développeurs de ne se concentrer que sur
+	l'implémentation des exigences métier de l'application.
+</p>
+
 

@@ -12,6 +12,6 @@ public class Presentation {
         ApplicationContext appContext = new AnnotationConfigApplicationContext("com.iliasse");
 
         IMetier metier = (IMetier)appContext.getBean("metier");
-        System.out.println("La température est égale à : " + metier.calcul());
+        System.out.println("La température égale à : " + metier.calcul());
     }
 }
