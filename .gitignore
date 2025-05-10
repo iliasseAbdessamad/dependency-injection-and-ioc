@@ -3,6 +3,10 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 80c8842ea83456805d80f4aff5a0e6a454da0e03
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
