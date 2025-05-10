@@ -26,7 +26,7 @@
 <img src="./imgs/5.png" alt="Une implémentation de l'interface IMetier">
 
 <br />
-<p><b>4 - L'injection des dépendences</b></p>
+<p><b>5 - L'injection des dépendences</b></p>
 <p>a - Par instanciation statique : </p>
 <img src="./imgs/6.png" alt="Injection des dépendences par instanciation statique">
 
@@ -37,7 +37,15 @@
 <br />
 <p>c - En utilsant Spring Framework : </p>
 <p>c - 1 - Via un fichier xml de configuration : </p>
-<p>c - 1 - Voici le fichier de configuration qui permet de configurer le conteneur d'injection des dépendences : </p>
+<p>c - 1 - 1 - Voici le fichier de configuration qui permet de configurer le conteneur d'injection des dépendences : </p>
 <img src="./imgs/8.png" alt="fichier de configuration du conteneur d'injection des dépendences">
-<p>c - 2 - Le corps de la méthode main() de la couche presentation </p>
+<p>c - 1 - 2 - Le corps de la méthode main() de la couche presentation </p>
 <img src="./imgs/9.png" alt="Le corps de la méthode main">
+<br/>
+<p>c - 2 - Via l'utilisation des annotations : </p>
+<p>c - 2 - 1 - Configuration du conteneur d'injection de dépendence en utilisant les annotations : </p>
+<img src="./imgs/10.png" alt="la class DaoImpl">
+<img src="./imgs/11.png" alt="la class MetierImpl">
+<p>c - 2 - 2 - Le corps de la méthode main() de la couche presentation </p>
+<img src="./imgs/12.png" alt="Le corps de la méthode main">
+
