@@ -31,5 +31,10 @@
 <img src="./imgs/6.png" alt="Injection des dépendences par instanciation statique">
 
 <br />
-<p>a - Par instanciation dynamique : </p>
+<p>b - Par instanciation dynamique : </p>
 <img src="./imgs/7.png" alt="Injection des dépendences par instanciation dynamique">
+
+<br />
+<p>c - En utilsant Spring Framework : </p>
+<p>c - 1 - Via un fichier xml de configuration : </p>
+<img src="./imgs/8.png" alt="Injection des dépendences par instanciation dynamique">

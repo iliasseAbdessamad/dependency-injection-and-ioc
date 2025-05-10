@@ -2,6 +2,7 @@ package com.iliasse.metier;
 
 import com.iliasse.dao.IDao;
 
+
 public class MetierImpl implements IMetier{
 
     private IDao dao;
